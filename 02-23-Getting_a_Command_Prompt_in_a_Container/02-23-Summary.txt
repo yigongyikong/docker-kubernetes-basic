@@ -1,0 +1,9 @@
+[Execute an additional command in a Container]
+- docker exec -it <container id> sh
+    - docker : Referenece the Docker client
+    - exec : Run another command
+    - -it : Allow us to provide input to the container
+        - -i : connect channel (STDIN, STDOUT, STDERR)
+        - -t : output pretty format
+    - <container id> : ID of the container
+    - sh : shell program (sh, bash, powershell, zsh etc)

@@ -1,0 +1,5 @@
+[Get logs from a container]
+- docker logs <image name>
+    - docker : Referenece the Docker client
+    - logs : Get Logs
+    - <image name> : Name of image to use for this container

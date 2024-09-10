@@ -1,0 +1,135 @@
+-: In the last section, we had a long discussion
+
+about the relationship between a container and an image.
+
+We had said that a container is a running process
+
+along with a subset of physical resources on your computer
+
+that are allocated to that process specifically.
+
+We also spoke a little bit about the relationship
+
+between an image and a running container.
+
+Remember, an image
+
+is really kind of a snapshot of the file system,
+
+along with a very specific startup command as well.
+
+Now, one thing that I wanna mention very quickly here,
+
+in the last section, we spoke a little bit
+
+about the separation or the kind of the isolation
+
+of these resources through a technique called namespacing.
+
+And we also said that we could limit
+
+the amount of resources used
+
+by these control group things as well.
+
+Now, this feature of namespacing and control groups
+
+is not included by default with all operating systems,
+
+even though in the last section,
+
+I had kind of specifically said like,
+
+oh yeah, your operating system has a kernel, too.
+
+These features of namespacing and control groups
+
+are specific to the Linux operating system.
+
+So namespacing control groups belong to Linux,
+
+not to Windows, not to macOS.
+
+So that might make you kind of question or wonder
+
+how are you running Docker right now?
+
+You know, we are running a Docker client
+
+and we are running Docker containers
+
+on a macOS or a Windows operating system.
+
+How is that happening if these are Linux-specific features?
+
+Well, here's what's happening behind the scenes.
+
+When you installed Docker for Windows or Docker for Mac
+
+just a moment ago in the last couple sections,
+
+you installed a Linux virtual machine.
+
+So, so long as Docker up here is running,
+
+you technically have a Linux virtual machine
+
+running on your computer.
+
+Inside of this virtual machine is
+
+where all of these containers are going to be created.
+
+So inside the virtual machine, we have a Linux kernel,
+
+and that Linux kernel is going to be
+
+hosting, running processes inside of containers.
+
+And it's that Linux kernel
+
+that's going to be in charge of limiting access
+
+or kind of constraining access or isolating access
+
+to different hardware resources on your computer.
+
+You can actually kind of see
+
+this Linux virtual machine in practice
+
+by opening up your terminal right now.
+
+And if you run that Docker version command again
+
+and look at your server,
+
+you'll notice that there's actually an OS entry on here
+
+and you'll notice
+
+that it probably doesn't have your operating system listed.
+
+Mine, for example, right here says very specifically Linux
+
+as the operating system.
+
+So that is kind of specifying
+
+that I'm running a Linux virtual machine
+
+and that's what's being used
+
+to host all these different containers
+
+that you and I are going to be working with.
+
+So just a little bit of interesting trivia.
+
+Now let's take another quick break right here.
+
+We're gonna continue the next section
+
+and start digging into the Docker client a little bit more.
+
+So quick break and I'll see you in just a minute.

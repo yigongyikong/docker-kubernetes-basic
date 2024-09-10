@@ -1,0 +1,5 @@
+[Creating and Running a Container from a Image]
+- docker run <image name>
+    - docker : Referenece the Docker client
+    - run : Try to create and run a container
+    - <image name> : Name of image to use for this container

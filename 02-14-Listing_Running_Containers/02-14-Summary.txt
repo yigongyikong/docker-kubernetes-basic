@@ -1,0 +1,5 @@
+[List all running containers]
+- docker ps
+    - docker : Referenece the Docker client
+    - ps : List all running containers
+- docker ps --all

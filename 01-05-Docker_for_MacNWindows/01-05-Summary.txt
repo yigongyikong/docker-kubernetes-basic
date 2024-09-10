@@ -1,0 +1,6 @@
+[Docker Client]
+- Tool that we are going to issue commands to
+
+[Docker Server(Docker Daemon)]
+- Tools that is responsible for creating images, running containers, etx.
+

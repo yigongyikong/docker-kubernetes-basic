@@ -1,0 +1,7 @@
+[Creating and Running a Container from a Image]
+- docker run <image name> command : 도커 프로세스에서 command를 실행시킨다. (기본 command를 덮고, 실행하는 명령)
+    - docker : Referenece the Docker client
+    - run : Try to create and run a container
+    - <image name> : Name of image to use for this container
+    - command : Default command override
+    - 만약에 command가 동작하지 않는다면, FS snapshot에 해당 command가 존재하지 않기 떄문

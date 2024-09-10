@@ -1,0 +1,14 @@
+- docker run = docker create + docker start -a
+
+[Create a Container]
+- docker ps
+    - docker : Referenece the Docker client
+    - create : Try to create the container
+    - <image name> : Name of image to use for this container
+
+[Start a Container]
+- docker start <container id>
+    - docker : Referenece the Docker client
+    - start : Try to run the container
+    - -a : 터미널에 출력해주는 옵션
+    - <image name> : Name of image to use for this container

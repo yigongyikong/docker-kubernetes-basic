@@ -1,0 +1,7 @@
+[Execute an additional command in a Container]
+- docker exec -it <container id> <command>
+    - docker : Referenece the Docker client
+    - exec : Run another command
+    - -it : Allow us to provide input to the container
+    - <container id> : ID of the container
+    - <command> : Command to execute

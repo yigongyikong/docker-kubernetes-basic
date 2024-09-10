@@ -1,0 +1,11 @@
+[Stop a Container]
+- docker stop <image name>
+    - docker : Referenece the Docker client
+    - stop : Stop docker process to exit (SIGTERM)
+    - <image name> : Name of image to use for this container
+
+[Kill a Container]
+- docker kill <image name>
+    - docker : Referenece the Docker client
+    - kill : Kill docker process (SIGKILL)
+    - <image name> : Name of image to use for this container

@@ -1,0 +1,9 @@
+[Docker Ecosystem]
+- include with (Docker Client, Docker Server, Docker Machine, Docker Images, Docker Hub, Docker Compose)
+- Docker is a platform or ecosystem around creating and running containers
+
+[What is the Container]
+- Image : Single file with all the deps and config required to run a program
+- Container : Instance of an image. Runs a program. = 실행 중인 프로그램
+    - 컨테이너는 하드웨어 리소스들의 독립된 모음을 가진 프로그램이라는 점이에요.
+    - 고유한 세트나 메모리 공간이 있고 네트워킹 기술 공간이 있고 하드 드라이브 공간도 있어요.
