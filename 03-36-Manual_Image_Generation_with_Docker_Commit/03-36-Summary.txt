@@ -1,0 +1,8 @@
+컨테이너를 이미지로 만들기
+
+docker run alpine
+
+docker ps -a
+CONTAINERID
+
+docker commit -c 'CMD ["redis-server"]' CONTAINERID

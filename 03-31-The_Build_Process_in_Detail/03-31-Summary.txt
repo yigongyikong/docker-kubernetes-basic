@@ -1,0 +1,30 @@
+비유하기
+Write a dockerfile => Being given a computer with no OS and being told to install Chrome
+
+How do you install Chrome on a computer with on operating system?
+
+1. Install an operating system
+    => 1. Specify a base image
+2-1. Start up your default browser
+2-2. Navigate to chrome.google.com
+2-3. Download installer
+2-4. Open file/folder explorer
+2-5. Execute chrome_install.exe
+    => 2. Run commands to install additional programs
+3. Execute chrome.exe
+    => 3. Command to run on startup
+
+
+Why did we use alpine as a base image?
+    -> They come with a preinstalled set of programs that are useful to you!
+
+RUN : 이미지에 사전에 설치하는 내용
+CMD : 이미지가 exec 되면서 프로그램 등을 실행하는 명령
+
+$ docker build .
+
+FROM 의 기본 이미지에서
+RUN을 통해 추가로 설치한 환경까지 포함된 새로운 이미지가 생성된다.
+
+CMD 해당 이미지를 실행하면, 바로 무엇을 실행시킬지 지정해둔다.
+이러한 시작 프로그램까지 지정된 최종 이미지가 생성된다.

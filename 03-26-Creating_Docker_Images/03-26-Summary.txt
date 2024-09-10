@@ -1,0 +1,5 @@
+[Createing a Dockerfile]
+
+Specify a base image
+    -> Run some commands to install additional programs
+        ->Specify a command to run on container startup

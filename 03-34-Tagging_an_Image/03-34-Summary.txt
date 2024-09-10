@@ -1,0 +1,5 @@
+
+
+$ docker build -t johnny/redis:latest .
+
+your docker id / project name : version
