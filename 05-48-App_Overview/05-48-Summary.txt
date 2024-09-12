@@ -1,0 +1,5 @@
+WebPage(방문 횟수를 표시해준다)
+
+방문 횟수는 Node Server로 부터 받아오고 Node Server는 Docker Container로 돌아간다
+
+방문 횟수 값은 Redis(In Memory Storage)에 저장되고, Redis Server 역시 위 Container와는 별개의 Container에서 동작한다.

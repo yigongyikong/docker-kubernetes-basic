@@ -1,0 +1,3 @@
+docker run -it johnny/simpleweb sh
+
+WORKDIR /usr/app : Any following command will be executed relative to this path in the container

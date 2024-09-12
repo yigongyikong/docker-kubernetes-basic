@@ -1,0 +1,6 @@
+docker build .
+...
+npm WARN saveError ENOENT: no such file or directory, open '/package.json'
+
+이미지 내부에 package.json 파일이 없고, 로컬 환경에서 작성한 파일을 이미지에 넣어야 할거 같다
+다음편으로

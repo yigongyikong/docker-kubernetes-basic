@@ -1,0 +1,12 @@
+Tiny Node JS Web App을 Container에 Wrapping 할것이디.
+
+The goal of this project is to create a tiny Node.js web application, 
+wrap it inside of a Docker container, and then be able to access that web application
+from a browser running on your local machine.
+
+[Steps]
+- Create Node JS Web application
+- Create a Dockerfile
+- Build image from Dockerfile
+- Run image as container
+- Connect to web app from a browser

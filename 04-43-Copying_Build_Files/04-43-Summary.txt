@@ -1,0 +1,6 @@
+docker build -t johnny/simpleweb .
+
+docker run  -p 8080:8080 johnny/simpleweb
+
+앞에 포트 : Route incoming requests to this port on local host to...
+뒤에 포트 : this port inside the container
