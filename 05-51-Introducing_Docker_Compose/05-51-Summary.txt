@@ -1,0 +1,14 @@
+node 서버 프로그램이 담긴 Container와
+
+redis 서버 프로그램이 담긴 Container를 따로 run하면
+
+둘은 아직 통신할 수 없는 상태이다.
+
+둘을 통신시키기 위해 두가지 옵션
+- 1) 실행시킬때 통신 포트를 설정하는 방법 : 그러나 그렇게 하면 개별로 실행시키고 각각 재수행 하는 등 까다로웁이 많다
+- 2) Docker Compose(Seperate cli tool)를 사용하는 방법
+
+[Docker Compose]
+- Seperate CLI that gets installed along with Docker
+- Used to start up multiple Docker containers at the same time
+- Automates some of the long-winded arguments we were passing to 'docker run'

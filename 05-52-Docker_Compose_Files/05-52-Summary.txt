@@ -1,0 +1,3 @@
+docker cli  List
+    => docker-compose.yml(contains all the options we'd normally pase to docker-cli)
+    => docker-complise CLI
